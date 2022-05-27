@@ -1,0 +1,39 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "DanielAdek <daniel.adek.k@gmail.com>",
+  "license": "MIT",
+  "private": "true",
+  "scripts": {
+    "start": "babel-node app.js",
+    "start:dev": "nodemon --exec babel-node app.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "datauri": "1.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsend": "^1.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pg": "7.4.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "5.21.4",
+    "sequelize-cli": "5.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "nodemon": "^2.0.5"
+  }
+}
